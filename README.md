@@ -1,6 +1,6 @@
 # Palindromic
 
-The program entitled 'is_palindrome.rb' is a basic program the prompts the user to input a word, phrase, or multiple sentences and provides output as to whether or not the word, phrase, or multiple sentences are in fact palindromes (a word that is the same written forwards or backwards).  Both 'is_palindrome.rb' and 'is_palindrome_advanced.rb' will report the same output values to the user, however, the underlying code for these programs are written differently.  In the program 'is_palindrome_advanced.rb' a recursion method is used to loop user input.  Currently, the program is not set to end.  Therefore, the user may use the following shortcut keys in Terminal to end the program and clear the screen: 'control c' and 'command k.'
+The program entitled `is_palindrome.rb` is a basic program the prompts the user to input a word, phrase, or multiple sentences and provides output as to whether or not the word, phrase, or multiple sentences are in fact palindromes (a word that is the same written forwards or backwards).  The program entitled `is_palindrome_from_txt.rb` will only run if the user provides a text file (file_name.txt) as an argument when running the Ruby program. Please see deployment for further instructions.  While utilizing the program `is_palindrome.rb` the user may input any number of words, phrases, and multiple sentences to check for palindromes.  When you are finished using the program hit the \'enter\' key to exit the program. While utilizing the program `is_palindrome_from_txt.rb` the only output for this program will be each line of the text file identified as either 'Is Palindrome' OR 'is NOT Palindrome.'
 
 ## Getting Started
 
@@ -34,9 +34,10 @@ Once you have completed the above installation processes your system should be r
 
 Please complete the following procedure to run the program on a live system:
   1. Open Terminal.
-  2. Change your directory to the one that which you have saved this zip file.`cd folder_name`
-  3. Type `is_palindrome.rb` OR  `is_palindrome_advanced.rb` to run the program.
-  4. READ all instructions BEFORE adding input.
+  2. Change your directory to the one that which you have saved this zip file.`cd folder_name/`
+  3. Type `ruby is_palindrome.rb` to run the program that prompts for user input.
+  4. Type `ruby is_palindrome_from_txt.rb file_name.txt` to run the program that will open and read the lines of a text file and check for palindromes.
+  5. READ all instructions BEFORE adding input.
 
 ## Built With
 
@@ -49,3 +50,5 @@ Please complete the following procedure to run the program on a live system:
 ## Acknowledgments
 
 * The Iron Yard - Durham
+* Alyssa Pratt
+* Bryce Darling
