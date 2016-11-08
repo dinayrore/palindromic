@@ -38,7 +38,7 @@ Once you have completed the above installation processes your system is ready to
 Please complete the following procedure to run the program on a live system:
   1. Open Terminal.
   2. Change your directory to the one that which you would like to save this project. `$ cd folder_name`
-  3. Then run the command `$ git clone https://github.com/kteich88/palindromic.git` and `$ cd palindromic`
+  3. Then run the commands `$ git clone https://github.com/kteich88/palindromic.git` and `$ cd palindromic`
   4. Type `ruby is_palindrome.rb` to run the program that prompts for user input.
   5. Type `ruby is_palindrome_from_txt.rb file_name.txt` to run the program and it will open and read the lines of a text file provided to check for palindromes. 
 
